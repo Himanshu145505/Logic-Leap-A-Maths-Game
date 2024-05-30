@@ -246,6 +246,8 @@
     </div>
 
     <script>
+
+        // Logic of getting 3 lives by default when the game starts 
         const player = document.getElementById('player');
         let isJumping = false;
         let score = 0;
@@ -256,6 +258,8 @@
         const gameOverPopup = document.getElementById('game-over-popup');
         const finalScore = document.getElementById('final-score');
         const playAgainButton = document.getElementById('play-again-button');
+
+        // play again button function popup
 
         playAgainButton.addEventListener('click', () => {
             gameOverPopup.style.display = 'none';
