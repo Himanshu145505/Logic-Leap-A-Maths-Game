@@ -414,6 +414,8 @@
                 "F ⊕ T ↔ T ="
             ];
 
+            // Random Order
+
             const randomProposition = propositions[Math.floor(Math.random() * propositions.length)];
             const obstacle = document.createElement('div');
             obstacle.classList.add('obstacle');
@@ -422,6 +424,8 @@
 
             moveObstacle(obstacle);
         }
+
+        // Movement of Obstacles towards the Mario Player
 
         function moveObstacle(obstacle) {
             let left = 1000;
