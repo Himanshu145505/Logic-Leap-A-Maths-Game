@@ -305,10 +305,14 @@
             }, returnDuration * 1000);
         }
 
+        // function for updating the score on every correct button press
+
         function updateScore() {
             score += 1;
             document.getElementById('score').textContent = score;
         }
+
+        // function for updating the lives on every wrong answer or after reseting the game
 
         function updateLives() {
             if (lives > 0) {
