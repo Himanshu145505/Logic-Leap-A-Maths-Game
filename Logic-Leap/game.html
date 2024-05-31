@@ -449,6 +449,7 @@
         }
 
         // Detect collisions between the player and obstacles
+        // Function for detecting the collision of obstacle means if the user do not click on any of the options (true or false) and the obstacle collides with the mario player the user will lose its 1 live on each collision
         function checkCollision(obstacle) {
             const playerRect = player.getBoundingClientRect();
             const obstacleRect = obstacle.getBoundingClientRect();
@@ -460,6 +461,7 @@
                 obstacleRect.top < playerRect.bottom
             ) {
                 // Collision detected, decrease life and remove obstacle
+                // Function for Decresing the lives on every incorrect answer (click)
                 updateLives();
                 obstacle.remove();
             }
