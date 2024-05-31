@@ -335,6 +335,8 @@
             createRandomPropositionObstacle();
         }
 
+        
+
         function showGameOverPopup() {
             // Show the game over popup with the final score
             finalScore.textContent = score;
@@ -363,6 +365,8 @@
             currentProposition.parentElement.remove();
         }
 
+        // Function for the Obstacles (Compound Proposition ) there are some default true and false compound propositions in this function
+
         function isPropositionTrue(proposition) {
             // You can add more conditions here to match other propositions.
             switch (proposition) {
@@ -384,6 +388,7 @@
         }
 
         // Generate random propositions as obstacles
+        // Function for the random order of the obstacles
         function createRandomPropositionObstacle() {
             const propositions = [
                 "T v F =",
