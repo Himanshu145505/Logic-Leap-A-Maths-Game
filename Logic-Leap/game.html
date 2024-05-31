@@ -274,6 +274,8 @@
             checkAnswer(false);
         });
 
+        // Jumping function for Jump the player on cliking True or False button
+
         function jumpPlayer() {
             if (!isGameOver) {
                 player.style.transition = 'bottom 0.5s';
@@ -288,6 +290,8 @@
                 }, 500);
             }
         }
+
+        // Function for returning the player at its default position after the jump
 
         function returnPlayer() {
             const returnDuration = '0.5s';
