@@ -5,3 +5,5 @@ LOGIC LEAP GAME - Instructions User goal is to answer math propositions and avoi
 
 
 Working Project Video Link : https://drive.google.com/drive/folders/1zN0ZVAK546ChJ0B_MbmOaI1DUDMQV0_5?usp=drive_link
+
+Contributors 🤝 are welcome! Please open an issue or submit a pull request.
