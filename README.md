@@ -3,6 +3,7 @@
 
 LOGIC LEAP GAME - Instructions User goal is to answer math propositions and avoid obstacles. User will use the "True" and "False" buttons to answer propositions. If user answer correctly, the player character will jump and 1 Score will be awarded. User have three lives represented by ❤️. Each time User collide with an obstacle or answer a proposition incorrectly ❌. User will lose a life. User score will increase 📈 with each correct answer. Try to achieve the highest score possible 🎯!
 
+Try it : https://logic-leap-a-maths-game.vercel.app/
 
 Working Project Video Link : https://drive.google.com/drive/folders/1zN0ZVAK546ChJ0B_MbmOaI1DUDMQV0_5?usp=drive_link
 
